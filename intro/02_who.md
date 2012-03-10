@@ -1,5 +1,5 @@
 !SLIDE subsection
 # @leinweber
 
-!SLIDE
-# heroku
+!SLIDE center
+![heroku postgres](herokupostgres.png)

@@ -13,14 +13,14 @@ body {
 
 .content {
   color: black;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: Futura, 'Helvetica Neue', sans-serif;
   text-shadow: 0px 1px rgba(0,0,0,0.8);
 }
 
 h1, h2 {
   color: rgb(79, 180, 226);
   color: #29264D;
-  font-family: Georgia;
+  font-family: Futura;
 }
 
 #slideInfo::before{

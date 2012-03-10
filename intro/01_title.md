@@ -1,3 +1,4 @@
 !SLIDE
-# heralding the death of nosql #
+# Schemaless SQL
+## The Best of Both Worlds
 
