@@ -1,0 +1,9 @@
+{
+  "name": "Heralding the death of nosql",
+  "sections": [
+    {"section":"intro"}
+  , {"section":"plv8"}
+  , {"section":"ruby"}
+  , {"section":"end"}
+  ]
+}
