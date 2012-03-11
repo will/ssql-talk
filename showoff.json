@@ -2,6 +2,7 @@
   "name": "Schemaless SQL - mwrc 2012",
   "sections": [
     {"section":"intro"}
+  , {"section":"hstore"}
   , {"section":"plv8"}
   , {"section":"ruby"}
   , {"section":"end"}

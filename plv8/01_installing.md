@@ -1,3 +1,19 @@
+!SLIDE bullets
+# javascript
+* everywhere
+* good parts
+
+!SLIDE bullets
+# v8 javascript engine
+* google
+* compiles to native code (really fast)
+* generational gc
+!SLIDE bullets
+# plv8
+* v8 ❤ postgres
+* trusted language
+* Itagaki Takahiro
+
 !SLIDE subsection
 # installing plv8
 
