@@ -11,9 +11,9 @@
 
 !SLIDE commandline incremental
 # hstore usage
-    $ SELECT * FROM books WHERE h->'color'='red';
+    $ SELECT * FROM books WHERE attrs->'color'='red';
     ...results
-    $ CREATE INDEX book_color ON books ((h->'color'));
+    $ CREATE INDEX book_color ON books ((attrs->'color'));
     CREATE INDEX
-    $ UPDATE books SET h = h || ('color' => 'blue');
+    $ UPDATE books SET attrs = attrs || ('color' => 'blue');
     adds or updates 'color'

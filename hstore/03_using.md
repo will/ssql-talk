@@ -1,10 +1,10 @@
 !SLIDE
-# install
+# install hstore
     @@@ sql
     CREATE EXTENSION hstore;
 
 !SLIDE
-# coming in ActiveRecord 4
+# ActiveRecord 4
 
 !SLIDE
 # sequel-hstore
@@ -21,10 +21,15 @@
              :default_value => ''
     end
 
-# pretty good …but
+!SLIDE
+# observations
+
+!SLIDE
+# wcld
+[github.com/ryandotsmith/wcld](https://github.com/ryandotsmith/wcld)
 
 !SLIDE bullets
-# not so great things
+# pretty good …but
 * no nesting
 * only strings
 
