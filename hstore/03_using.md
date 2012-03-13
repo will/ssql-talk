@@ -7,10 +7,7 @@
 # ActiveRecord 4
 
 !SLIDE
-# sequel-hstore
-[github.com/pvh/sequel-hstore](https://github.com/pvh/sequel-hstore)
-
-`gem install sequel-hstore`
+# sequel
 
 !SLIDE
     @@@ ruby

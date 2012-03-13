@@ -1,7 +1,7 @@
 !SLIDE subsection
 # hstore
 
-!SLIDE bullets
+!SLIDE bullets hello
 # hstore
 * key/value store in a column
 * indicies
