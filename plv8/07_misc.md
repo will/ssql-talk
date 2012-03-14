@@ -1,23 +1,26 @@
-!SLIDE bullets
-# limitations
-* `DO` anonymous fns are psql only
-* some reparsing
+!SLIDE subsection
+# here's a bad idea
 
-!SLIDE smaller
+!SLIDE
     @@@ sql
     create or replace function
     js(src text) returns text as $$
-      return eval("(function() { " + src + "})")();
+      return eval(
+      "(function() { " + src + "})"
+      )();
     $$ LANGUAGE plv8;
 
+!SLIDE
+    @@@ sql
     select js('return new Date()');
-    js | Mon Oct 10 2011 20:58:01 GMT-0700 (PDT)
-    Time: 0.326 ms
+    js | Wed Mar 14 2012 01:07:13 GMT-0700 (PDT)
 
-    select js('i=9436193023*207743; return i.toString(36)');
+    select js('i=9436193023*207743;
+               return i.toString(36)');
     js | javascript
 
-    select js('return data.name.split(" ").sort().join(" ")',
+    select js('return data.name.
+          split(" ").sort().join(" ");',
               data) from people limit 1;
     js | Agnes DDS Lowe
 

@@ -3,10 +3,10 @@
     @@@ sql
     CREATE EXTENSION hstore;
 
-!SLIDE
+!SLIDE huge
 # ActiveRecord 4
 
-!SLIDE
+!SLIDE huge
 # sequel
 
 !SLIDE
@@ -18,10 +18,10 @@
              :default_value => ''
     end
 
-!SLIDE
+!SLIDE huge
 # observations
 
-!SLIDE
+!SLIDE huge
 # wcld
 [github.com/ryandotsmith/wcld](https://github.com/ryandotsmith/wcld)
 
