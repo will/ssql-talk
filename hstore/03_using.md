@@ -21,6 +21,8 @@ thanks [@Schneems](http://twitter.com/Schneems)
 # wcld
 [github.com/ryandotsmith/wcld](https://github.com/ryandotsmith/wcld)
 
+product_id=114 buyer='will l' price=53 count=2
+
 !SLIDE bullets
 # pretty good …but
 * no nesting

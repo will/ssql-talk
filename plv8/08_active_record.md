@@ -45,19 +45,7 @@
 
 !SLIDE
     @@@ sql
-    >> (1..30).each { |cost|
-       Thing.create :data => {'cost' => cost} }
-    >> Thing.where('cost > 10').count
-    => 20
-       (0.5ms)
-       SELECT COUNT(*)
-       FROM "things"
-       WHERE (json_path('cost', data)::numeric
-               > 10)
-
-!SLIDE
-    @@@ sql
-    >> Thing.where('cost > 10').limit(1)
+    >> Thing.where("data -> '.cost' > 10").limit(1)
       Thing Load (0.4ms)
       SELECT "things".*
       FROM "things" WHERE
