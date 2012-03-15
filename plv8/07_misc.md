@@ -20,8 +20,10 @@
     js | javascript
 
     select js('return data.name.
-          split(" ").sort().join(" ");',
-              data) from people limit 1;
-    js | Agnes DDS Lowe
+          split("").sort().join("");',
+              data) from people;
+    js | ADDLSeegnosw
+         CDLPaehilnorstt
+         .AMVeimnnoostu
 
 

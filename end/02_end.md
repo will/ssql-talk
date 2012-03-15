@@ -1,6 +1,6 @@
 !SLIDE subsection
 # thanks
-[pgeu-plv8.herokuapp.com](http://pgeu-plv8.herokuapp.com)
+[ssql-mwrc.herokuapp.com](http://ssql-mwrc.herokuapp.com)
 
 will@heroku.com
 
