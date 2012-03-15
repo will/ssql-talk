@@ -3,7 +3,7 @@
 
 !SLIDE bullets
 # what we have
-* developer-friendly documents
+* friendly documents
 * world class database
 
 !SLIDE bullets
