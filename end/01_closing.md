@@ -11,10 +11,5 @@
 * awesome
 *  
 
-!SLIDE bullets
-# what we need
-* `create extension`
-* popular language/orm binding
-
-!SLIDE
-# ltree?
+!SLIDE huge
+# locality

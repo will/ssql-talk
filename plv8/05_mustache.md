@@ -7,12 +7,9 @@
     create or replace function
     mustache(template text, view json)
     returns text as $$
-
-       …400 lines of mustache.js…
+      // …400 lines of mustache.js…
       return Mustache.to_html(
-        template, JSON.parse(view)
-      )
-
+        template, JSON.parse(view))
     $$ LANGUAGE plv8 IMMUTABLE STRICT;
 
 !SLIDE

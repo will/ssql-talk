@@ -6,17 +6,13 @@
 !SLIDE huge
 # ActiveRecord 4
 
+!SLIDE smaller
+#[hstoredemo.herokuapp.com](http://hstoredemo.herokuapp.com/)
+#[github/heroku/hstore_demo](http://github.com/heroku/hstore_example)
+thanks [@Schneems](http://twitter.com/Schneems)
+
 !SLIDE huge
 # sequel
-
-!SLIDE
-    @@@ ruby
-    create_table(:things) do
-      primary_key :id
-      column :attrs,
-             :hstore,
-             :default_value => ''
-    end
 
 !SLIDE huge
 # observations

@@ -4,14 +4,14 @@
 !SLIDE
 # mvcc, fulltext search, geo, knn, listen/notify, datatypes, replication
 
-!SLIDE
+!SLIDE huge
 # rollback;
 
-!SLIDE
+!SLIDE huge
 # I miss documents
 
-!SLIDE
+!SLIDE huge
 # I missed documents
 
-!SLIDE
+!SLIDE huge
 # hstore, plv8
