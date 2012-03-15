@@ -34,6 +34,7 @@
     (7 rows)
 
     Time: 0.247 ms
+
 !SLIDE
     @@@ sql
     select count(*) from people;

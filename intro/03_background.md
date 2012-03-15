@@ -24,7 +24,6 @@
 # is not relational
 
 !SLIDE
-# mergefm 'schema'
     @@@ c
     song[]
       title, *artist, etc
@@ -33,6 +32,7 @@
         tracks[]
           name
           file
+            name, size, path, etc
 
 !SLIDE bullets
 # _could_ be done in sql
