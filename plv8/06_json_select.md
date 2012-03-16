@@ -42,7 +42,7 @@
 !SLIDE
     @@@ sql
     select count(*) from people
-    where json_select('$.age', data)::int=26;
+    where json_select('.age', data)::int=26;
     count | 10074
 
 !SLIDE huge

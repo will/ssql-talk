@@ -67,6 +67,7 @@
     stddev | 28.8685543109366494
     min    | 0
     max    | 99
+    Time: 9372.052 ms
 
     select sum(age), avg(age), stddev(age), min(age), max(age)
     from ages;
@@ -76,7 +77,6 @@
     stddev | 28.8685543109366494
     min    | 0
     max    | 99
-
     Time: 2026.410 ms
 
 !SLIDE
