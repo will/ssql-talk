@@ -21,7 +21,7 @@
     @@@ sql
     SELECT * FROM products, companies
     WHERE attrs->'color'='red'
-      AND companies.id=company_id;
+      AND companies.id=products.company_id;
 
 !SLIDE
 # hstore index

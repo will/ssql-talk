@@ -41,6 +41,12 @@
     -[ RECORD 1 ]-
     count | 1000000
 
+    CREATE OR REPLACE FUNCTION
+    get_numeric(key text, data json)
+   kRETURNS numeric $$
+      return JSON.parse(data)[key];
+    $$ LANGUAGE plv8 IMMUTABLE STRICT;
+
 !SLIDE
     @@@ sql
     select avg(get_numeric('age', data))
