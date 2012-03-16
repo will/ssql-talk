@@ -12,6 +12,6 @@ if ENV['PUSHER_URL']
   use Altum, :pusher_url => ENV['PUSHER_URL'], :key => ENV['password']
 end
 
-use Rack::GoogleAnalytics, :tracker => 'UA-3204018-7'
+use Rack::GoogleAnalytics, :tracker => 'UA-3204018-9'
 
 run ShowOff.new
