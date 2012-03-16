@@ -7,7 +7,10 @@
 # ActiveRecord 4
 
 !SLIDE
-    Product.where("attrs @> (:key => :value)", :key => 'color', :value => 'red')
+    @@@ ruby
+    Product.where(
+     "attrs @> (:key => :value)",
+     key: 'color', value: 'red')
 
 !SLIDE smaller
 #[hstoredemo.herokuapp.com](http://hstoredemo.herokuapp.com/)

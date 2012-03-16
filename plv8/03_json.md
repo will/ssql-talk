@@ -43,7 +43,7 @@
 
     CREATE OR REPLACE FUNCTION
     get_numeric(key text, data json)
-   kRETURNS numeric $$
+    RETURNS numeric $$
       return JSON.parse(data)[key];
     $$ LANGUAGE plv8 IMMUTABLE STRICT;
 
