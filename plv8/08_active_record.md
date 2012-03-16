@@ -6,7 +6,8 @@
 
 !SLIDE
     @@@ sql
-    >> Product.where("data -> '.cost' > 10").limit(1)
+    >> Product.where("data -> '.cost' > 10").
+         limit(1)
       Thing Load (0.4ms)
       SELECT "products".*
       FROM "products" WHERE
