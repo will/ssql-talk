@@ -8,7 +8,7 @@
     @@@ sql
     >> Product.where("data -> '.cost' > 10").
          limit(1)
-      Thing Load (0.4ms)
+      Product Load (0.4ms)
       SELECT "products".*
       FROM "products" WHERE
        (json_path('.cost', data)::numeric > 10)
