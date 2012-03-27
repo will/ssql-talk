@@ -2,19 +2,51 @@
 # background
 
 !SLIDE
-# plain active record
+# I'm an application developer
+
+!SLIDE smaller
+# php/mysql
+
+!SLIDE center smaller
+![knot](knot.jpg)
+[(cc) veebl](http://www.flickr.com/photos/veebl/2347345630/)
+
+!SLIDE
+# active record
+
+!SLIDE huge
+# relations,
+# not tables
+
+!SLIDE
+# yet still migrations
+
+!SLIDE huge
+# couchdb
 
 !SLIDE bullets
-# couchdb
+* http ➡ caching, load balancing
+* restful(ish)
+* multi-master
+* map/reduce views
+
+!SLIDE bullets
+* schemaless
+* json
 * document based
-* http restfulish
-* map reduce
+
+!SLIDE
+# easy to understand love
+# for mongo and couch
 
 !SLIDE
 # documents are fun
 
 !SLIDE
 # tables suck
+
+!SLIDE
+# migrations are painful
 
 !SLIDE
 # 3nf is a pain in the ass
