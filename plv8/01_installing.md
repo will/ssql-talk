@@ -4,8 +4,19 @@
 !SLIDE bullets
 # plv8
 * v8 ❤ postgres
+* Hitoshi Harada et al.
+
+!SLIDE bullets
+# why javascript?
+* everywhere
+* good parts
 * trusted language
-* Hitoshi Harada
+
+!SLIDE bullets
+# v8 javascript engine
+* google
+* compiles to native code (really fast)
+* generational gc
 
 !SLIDE
 # [code.google.com/p/plv8js](http://code.google.com/p/plv8js/)

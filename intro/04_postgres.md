@@ -4,6 +4,10 @@
 !SLIDE
 # mvcc, fulltext search, geo, knn, listen/notify, datatypes, replication
 
+!SLIDE bullets
+# wal-e
+* [github.com/heroku/wal-e](https://github.com/heroku/wal-e)
+
 !SLIDE huge
 # rollback;
 
@@ -14,4 +18,4 @@
 # I missed documents
 
 !SLIDE huge
-# hstore, plv8
+# hstore & plv8
