@@ -10,6 +10,3 @@
 # what we have
 * awesome
 *  
-
-!SLIDE huge
-# locality

@@ -15,4 +15,8 @@
       LIMIT 1
     => [#<Product id: 16, data: {"cost"=>11},…
 
+!SLIDE
+# bindings for other languages
 
+!SLIDE
+# function package

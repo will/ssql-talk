@@ -43,10 +43,14 @@
 # documents are fun
 
 !SLIDE
+# sql is hard
+
+!SLIDE
 # tables suck
 
 !SLIDE
 # migrations are painful
+(so avoid them)
 
 !SLIDE
 # 3nf is a pain in the ass
@@ -54,6 +58,10 @@
 !SLIDE
 # often my data
 # is not relational
+
+!SLIDE
+# I want my storage to
+# look like my code
 
 !SLIDE
     @@@ c

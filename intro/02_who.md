@@ -27,3 +27,7 @@
 
 !SLIDE
 # postgres by default
+
+!SLIDE
+# why postgres?
+
