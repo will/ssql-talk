@@ -1,6 +1,6 @@
 !SLIDE subsection
 # thanks
-[ssql-pgaustin.herokuapp.com](http://ssql-pgaustin.herokuapp.com)
+[ssql-bacon.herokuapp.com](http://ssql-bacon.herokuapp.com)
 
 will@heroku.com
 
