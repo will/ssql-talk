@@ -10,3 +10,7 @@
 # what we have
 * awesome
 *  
+!SLIDE bullets
+# what we have
+* dataype
+* language
