@@ -1,6 +1,13 @@
 !SLIDE subsection
 # background
 
+!SLIDE smaller
+# php/mysql
+
+!SLIDE center smaller
+![knot](knot.jpg)
+[(cc) veebl](http://www.flickr.com/photos/veebl/2347345630/)
+
 !SLIDE
 # active record
 
