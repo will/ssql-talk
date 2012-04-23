@@ -1,6 +1,9 @@
 !SLIDE subsection
 # @leinweber
 
+!SLIDE subsection
+# gem install bundle
+
 !SLIDE center
 ![heroku](heroku.png)
 
