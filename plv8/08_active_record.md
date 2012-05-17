@@ -5,6 +5,9 @@
 # all of that should be transparent
 
 !SLIDE
+# work from both ends
+
+!SLIDE
     @@@ ruby
     >> Product
     => Product(id: integer, data: json,

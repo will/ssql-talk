@@ -18,6 +18,9 @@
 * compiles to native code (really fast)
 * generational gc
 
+!SLIDE huge
+other pls?
+
 !SLIDE
 # [code.google.com/p/plv8js](http://code.google.com/p/plv8js/)
 
