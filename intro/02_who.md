@@ -2,7 +2,7 @@
 # @leinweber
 
 !SLIDE subsection
-# gem install bundle
+# `\set ON_ERROR_ROLLBACK interactive`
 
 !SLIDE center
 ![heroku](heroku.png)

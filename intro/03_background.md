@@ -1,6 +1,9 @@
 !SLIDE subsection
 # background
 
+!SLIDE
+# I'm an application developer
+
 !SLIDE smaller
 # php/mysql
 
@@ -10,6 +13,13 @@
 
 !SLIDE
 # active record
+
+!SLIDE huge
+# relations,
+# not tables
+
+!SLIDE
+# yet still migrations
 
 !SLIDE huge
 # couchdb
