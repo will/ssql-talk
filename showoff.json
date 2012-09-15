@@ -1,5 +1,5 @@
 {
-  "name": "Schemaless SQL - Railsconf 2012",
+  "name": "plv8/json - Postgres Open 2012",
   "sections": [
     {"section":"intro"}
   , {"section":"hstore"}
