@@ -3,6 +3,7 @@
 
 !SLIDE subsection
 # `\set ON_ERROR_ROLLBACK interactive`
+# `\x auto`
 
 !SLIDE center
 ![heroku](heroku.png)

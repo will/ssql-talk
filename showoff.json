@@ -4,6 +4,7 @@
     {"section":"intro"}
   , {"section":"hstore"}
   , {"section":"plv8"}
+  , {"section":"slouchapp"}
   , {"section":"end"}
   ]
 }
