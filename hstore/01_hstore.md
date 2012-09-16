@@ -4,5 +4,6 @@
 !SLIDE bullets hello
 # hstore
 * key/value store in a column
-* indicies
+* expression index
+* gin index
 
