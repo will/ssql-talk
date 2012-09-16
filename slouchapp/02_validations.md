@@ -35,6 +35,7 @@
       return 'description too short' if model.desc.length < 5
       return 'description too long'  if model.desc.length > 100
       return 'bumpcount not positive' unless model.bumpCount >= 0
+
 !SLIDE smaller
 # client
 

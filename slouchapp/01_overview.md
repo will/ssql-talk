@@ -122,10 +122,24 @@ keep it simple, build quickly
 !SLIDE huge
 start with postgres
 
-better off when it grows
+better off when app grows
 
+!SLIDE huge
+we all know this
 
 !SLIDE subsection
-# biggest win
+# biggest success
 
+!SLIDE huge
+# impedance match
 
+!SLIDE bullets
+# avoid costs
+* of switching languages
+* of switching contexts
+* of switching
+
+!SLIDE huge
+#clean tiers
+#vs.
+#same model
