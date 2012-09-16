@@ -21,6 +21,10 @@ body {
   font-size: 8em;
 }
 
+.huge p {
+  font-size: 4em;
+}
+
 h1, h2 {
   color: rgb(79, 180, 226);
   color: #29264D;

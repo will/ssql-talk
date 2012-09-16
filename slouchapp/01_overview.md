@@ -107,11 +107,25 @@
 !SLIDE bullets
 * all very easy
 * all very fast
+* all very simple
 
 !SLIDE
-# one table?
-yeah that's the point
-keep it simple
-thought about doing a huge complicated nested example that shows off json, but the real value is how easy it is to build new things
-people are choosing 'nosql' cause it is easy
-they'd be far better off if postgres was easy
+big complicated nested json example
+
+!SLIDE bullets
+* bulkbag column
+* one simple table
+
+!SLIDE huge
+keep it simple, build quickly
+
+!SLIDE huge
+start with postgres
+
+better off when it grows
+
+
+!SLIDE subsection
+# biggest win
+
+

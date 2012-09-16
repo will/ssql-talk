@@ -1,3 +1,8 @@
+!SLIDE bullets incremental
+# what about code sharing?
+* _mostly_ a failure
+* but one awesome win
+
 !SLIDE subsection
 # validations
 
@@ -83,7 +88,7 @@
                  "bumpCount":5}');
     INSERT 0 1
 
-!SLIDE 
+!SLIDE bullets
 # sequel
 
 * check constraints
