@@ -45,6 +45,4 @@
     where json_select('.age', data)::int=26;
     count | 10074
 
-!SLIDE huge
-# rough edges
 

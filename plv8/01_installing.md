@@ -19,7 +19,7 @@
 * generational gc
 
 !SLIDE huge
-other pls?
+other PLs?
 
 !SLIDE
 # [code.google.com/p/plv8js](http://code.google.com/p/plv8js/)

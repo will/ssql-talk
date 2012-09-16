@@ -1,4 +1,4 @@
 !SLIDE
-# Schemaless SQL
-## The Best of Both Worlds
+# Embracing the Web
+## with JSON and PLV8
 
