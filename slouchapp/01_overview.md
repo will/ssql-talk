@@ -149,7 +149,7 @@ we all know this
 # avoid costs
 * of switching languages
 * of switching contexts
-* of switching
+* of switching models
 
 !SLIDE huge
 #clean tiers

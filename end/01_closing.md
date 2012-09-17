@@ -15,6 +15,3 @@
 # what we have
 * dataype
 * language
-
-!SLIDE huge
-# advanced db features
