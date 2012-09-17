@@ -18,7 +18,7 @@
 # exploration
 * derby / meteor
 * really neat, promising
-* too much
+* too much magic
 
 !SLIDE bullets
 # stack
@@ -35,8 +35,8 @@
 !SLIDE bullets
 # add node
 * still don't know what I want
+* start doing api calls
 * model database as in-memory store
-* still easy to change
 
 !SLIDE bullets
     @@@ coffeescript
@@ -62,10 +62,10 @@
     CREATE EXTENSION plv8;
     CREATE EXTENSION "uuid-ossp";
     CREATE TABLE hopes (
-      id uuid
-        primary key
-        default (uuid_generate_v4())
-    , data json);
+        id uuid
+           primary key
+           default (uuid_generate_v4()),
+      data json);
 
 !SLIDE subsection
 # evolving the app
@@ -76,7 +76,7 @@
     select * from hopes limit 1;
     -[ RECORD 1 ]-
     id   | 38290295-aed4-417f-90bf-8c6d1d730e6d
-    data | {"desc":"finish my talk"}
+    data | {"desc":"give my talk"}
 
 !SLIDE
 # add date
@@ -116,6 +116,9 @@
 * all very easy
 * all very fast
 * all very simple
+
+!SLIDE huge
+# effortless
 
 !SLIDE
 big complicated nested json example
