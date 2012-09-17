@@ -14,7 +14,7 @@
 * what's good
 * what's bad
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # exploration
 * derby / meteor
 * really neat, promising
@@ -35,7 +35,7 @@
 !SLIDE bullets
 # add node
 * still don't know what I want
-* model database as in-memory hash
+* model database as in-memory store
 * still easy to change
 
 !SLIDE bullets
@@ -71,6 +71,14 @@
 # evolving the app
 
 !SLIDE
+# start with only description
+    @@@ sql
+    select * from hopes limit 1;
+    -[ RECORD 1 ]-
+    id   | 38290295-aed4-417f-90bf-8c6d1d730e6d
+    data | {"desc":"finish my talk"}
+
+!SLIDE
 # add date
 
     @@@ coffeescript
@@ -82,7 +90,7 @@
 
     @@@ coffeescript
     defaults: ->
-      bumpCount: new Date()
+      bumpCount: 0
     bump: ->
       @model.set('bumpCount',
                  @model.get('bumpCount') + 1)
@@ -113,8 +121,9 @@
 big complicated nested json example
 
 !SLIDE bullets
+# ease development
 * bulkbag column
-* one simple table
+* simple key/value tables
 
 !SLIDE huge
 keep it simple, build quickly
