@@ -1,6 +1,6 @@
 !SLIDE subsection
 # thanks
-[ssql-pgcon.herokuapp.com](http://ssql-pgcon.herokuapp.com)
+[plv8-pgopen.herokuapp.com](http://plv8-pgopen.herokuapp.com)
 
 will@heroku.com
 
